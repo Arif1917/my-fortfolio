@@ -266,3 +266,63 @@ text-align: left;
   text-align: center;
   margin-top: 20px;
 }
+
+
+/* footer related */
+
+footer{
+    display: flex;
+    gap: 30px;
+    padding: 88px 150px;
+}
+
+.footer-coloumn{
+    width: 50%;
+}
+
+.list-style a{
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+}
+.list-style a:hover{
+    color: rgb(146, 23, 23);
+    background-color: gray;
+}
+.connect-title{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 25px;
+font-weight: 700;
+text-align: left;
+margin-bottom: 14px;
+}
+.connect-paragraph{
+    color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 13px;
+font-weight: 300;
+text-align: left;
+margin-bottom: 14px;
+}
+
+.messege-title{
+    color: rgb(24, 24, 24);
+font-size: 25px;
+font-weight: 600;
+}
+
+footer input[type="text"], input[type="email"], textarea{
+    border-radius: 5px;
+
+background: rgb(255, 255, 255);
+color: rgb(117, 117, 117);
+font-size: 12px;
+font-weight: 400;
+text-align: left;
+padding: 16px   10px;
+width: 100%;
+border: none;
+outline: none;
+margin-bottom: 10px;
+}
