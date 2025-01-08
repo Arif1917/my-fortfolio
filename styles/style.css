@@ -7,6 +7,27 @@
 
 }
 
+/* shared style */
+.bg-color{
+  background-color: rgb(255, 248, 243);  
+}
+
+.about-title{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 25px;
+font-weight: 600;
+text-align: center;
+}
+
+
+.about-description{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 12px;
+font-weight: 330px;
+text-align: center;
+}
 
 /* header */
 
@@ -106,4 +127,47 @@ margin-bottom: 13px;
 
 .banner-pro-picture{
     width: 391px;
+}
+
+
+main{
+    width: 970px;
+    margin: 0 auto;
+}
+
+
+/* about related style */
+
+.section{
+ padding: 90px 100px 90px 100px;
+ margin-top: 50px;
+
+}
+.about{
+    
+    border-radius: 10px;
+    
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-title{
+    font-weight: 300;
+    font-size: 13px;
+    text-align: center;
+    
+}
+.item-description{
+    font-weight: 400;
+    font-size:16px ;
+}
+
+.mb-mb{
+    margin-bottom: 20px;
+}
+.des-des{
+    margin-bottom: 40px;
 }
