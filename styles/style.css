@@ -7,8 +7,15 @@
 
 }
 
-.color-code{
-    color: #FD6E0A;
+
+/* header */
+
+.header{
+    background: url('../img/developer.png'),url('../img/header_bg.png'),rgb(255, 248, 243);
+    background-size:75px, 550px;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+    
 }
 
 
@@ -25,12 +32,13 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 80px 150px;
+    margin: 0 150px;
+    padding: 40px;
 }
 
 nav >ul{
     display: flex;
-    
+    align-items: center;
 }
 nav> ul> li{
     list-style: none;
@@ -52,4 +60,50 @@ border-radius: 5px;
 padding: 7px 13px;
 background: rgb(253, 110, 10);
 border: none;
+
+}
+
+
+
+
+/* banner related style */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 0 150px;
+}
+
+.banner-content{
+    
+    max-width: 390px;
+}
+
+.banner-greeting{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 13px;
+}
+.banner-title{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 55px;
+font-weight: 600;
+text-align: left;
+margin-bottom: 13px;
+}
+.banner-description{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 12px;
+font-weight: 300;
+text-align: left;
+margin-bottom: 13px;
+}
+
+.banner-pro-picture{
+    width: 391px;
 }
