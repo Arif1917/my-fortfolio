@@ -215,3 +215,54 @@ font-size: 16px;
 font-weight: 300;
 text-align: left;
 }
+
+
+
+/* resume  section */
+
+.resume-summary{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 28px;
+font-weight: 660;
+text-align: center;
+}
+
+.resume-container{
+     display: flex;
+     gap: 20px;
+}
+
+.resume-container hr{
+    margin: 20px 15px;
+}
+
+.resume-title{
+    color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 23px;
+font-weight: 650;
+line-height: 41px;
+text-align: left;
+}
+
+.resume-subtitle{
+    color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 34px;
+text-align: left;
+}
+.resume-description{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 12px;
+font-weight: 400;
+text-align: left;
+}
+
+.vvv-v{
+  text-align: center;
+  margin-top: 20px;
+}
